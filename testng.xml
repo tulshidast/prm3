@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	<groups>
+		<run>
+			<!-- <include name="sanity"></include> -->
+			<exclude name="E2E"></exclude>
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="com.prm3.project.ListnersUse"></listener>
+	</listeners>
+	<test thread-count="2" name="Test" parallel="methods">
+
+		<classes>
+			<!-- <class name="testng.HardNSoftAssert" /> -->
+			<class name="testng.ParellelExecution" />
+			<!-- <class name="testng.SoftAssertInTestNg" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
