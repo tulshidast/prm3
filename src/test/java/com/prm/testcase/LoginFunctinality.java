@@ -44,7 +44,7 @@ public class LoginFunctinality {
 
 	@Test
 	public void verifyTest() {
-		assertTrue(true);
+		assertTrue(false);
 	}
 
 	@AfterMethod
