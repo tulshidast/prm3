@@ -8,14 +8,13 @@
 			<exclude name="E2E"></exclude>
 		</run>
 	</groups>
-	<listeners>
-		<listener class-name="com.prm3.project.ListnersUse"></listener>
-	</listeners>
-	<test thread-count="2" name="Test" parallel="methods">
+	<!-- <listeners> <listener class-name="com.prm3.project.ListnersUse"></listener> 
+		</listeners> -->
+	<test thread-count="1" name="Test" parallel="false">
 
 		<classes>
-			<!-- <class name="testng.HardNSoftAssert" /> -->
-			<class name="testng.ParellelExecution" />
+			<class name="com.prm.testcase.LoginFunctinality" />
+			<!-- <class name="testng.ParellelExecution" /> -->
 			<!-- <class name="testng.SoftAssertInTestNg" /> -->
 		</classes>
 	</test> <!-- Test -->

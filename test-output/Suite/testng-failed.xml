@@ -11,12 +11,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testng.ParellelExecution">
+      <class name="testng.HardNSoftAssert">
         <methods>
-          <include name="launchGuru99"/>
-          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyValidLogin"/>
+          <include name="getWebDriver"/>
         </methods>
-      </class> <!-- testng.ParellelExecution -->
+      </class> <!-- testng.HardNSoftAssert -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

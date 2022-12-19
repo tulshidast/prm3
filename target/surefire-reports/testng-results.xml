@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Before launch application]]>
+    </line>
+    <line>
+      <![CDATA[Application launched successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21864" started-at="2022-12-19T15:53:28Z" finished-at="2022-12-19T15:53:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21864" started-at="2022-12-19T15:53:28Z" finished-at="2022-12-19T15:53:50Z">
+      <class name="com.prm.testcase.LoginFunctinality">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.prm.testcase.LoginFunctinality@8bd1b6a]" name="setUp" is-config="true" duration-ms="9808" started-at="2022-12-19T21:23:28Z" finished-at="2022-12-19T21:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTest()[pri:0, instance:com.prm.testcase.LoginFunctinality@8bd1b6a]" name="verifyTest" duration-ms="12" started-at="2022-12-19T21:23:38Z" finished-at="2022-12-19T21:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.prm.testcase.LoginFunctinality@8bd1b6a]" name="tearDown" is-config="true" duration-ms="1054" started-at="2022-12-19T21:23:38Z" finished-at="2022-12-19T21:23:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTest status=SUCCESS method=LoginFunctinality.verifyTest()[pri:0, instance:com.prm.testcase.LoginFunctinality@8bd1b6a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.prm.testcase.LoginFunctinality@8bd1b6a]" name="setUp" is-config="true" duration-ms="7223" started-at="2022-12-19T21:23:39Z" finished-at="2022-12-19T21:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyValidLogin()[pri:0, instance:com.prm.testcase.LoginFunctinality@8bd1b6a]" name="verifyValidLogin" duration-ms="2592" started-at="2022-12-19T21:23:46Z" finished-at="2022-12-19T21:23:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Before launch application]]>
+            </line>
+            <line>
+              <![CDATA[Application launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.prm.testcase.LoginFunctinality@8bd1b6a]" name="tearDown" is-config="true" duration-ms="1150" started-at="2022-12-19T21:23:48Z" finished-at="2022-12-19T21:23:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=LoginFunctinality.verifyValidLogin()[pri:0, instance:com.prm.testcase.LoginFunctinality@8bd1b6a] output=Before launch application]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.prm.testcase.LoginFunctinality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
